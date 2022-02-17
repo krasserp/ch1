@@ -1,0 +1,1579 @@
+{
+    "variables": [
+        {
+            "vgroup": "record",
+            "qtitle": "Record number",
+            "colTitle": null,
+            "title": "Record number",
+            "rowTitle": null,
+            "label": "record",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "uuid",
+            "qtitle": "Participant identifier",
+            "colTitle": null,
+            "title": "Participant identifier",
+            "rowTitle": null,
+            "label": "uuid",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "date",
+            "qtitle": "Completion time and date",
+            "colTitle": null,
+            "title": "Completion time and date",
+            "rowTitle": null,
+            "label": "date",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "markers",
+            "qtitle": "Acquired markers",
+            "colTitle": null,
+            "title": "Acquired markers",
+            "rowTitle": null,
+            "label": "markers",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "status",
+            "qtitle": "Participant status",
+            "colTitle": null,
+            "title": "Participant status",
+            "rowTitle": null,
+            "label": "status",
+            "values": [
+                {
+                    "label": "terminated",
+                    "value": 1,
+                    "title": "Terminated"
+                },
+                {
+                    "label": "overquota",
+                    "value": 2,
+                    "title": "Overquota"
+                },
+                {
+                    "label": "qualified",
+                    "value": 3,
+                    "title": "Qualified"
+                },
+                {
+                    "label": "partial",
+                    "value": 4,
+                    "title": "Partial"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "status"
+        },
+        {
+            "vgroup": "q1",
+            "qtitle": "Gender",
+            "colTitle": null,
+            "title": "Gender",
+            "rowTitle": null,
+            "label": "q1",
+            "values": [
+                {
+                    "label": "r1",
+                    "value": 1,
+                    "title": "Male"
+                },
+                {
+                    "label": "r2",
+                    "value": 2,
+                    "title": "Female"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "q1"
+        },
+        {
+            "vgroup": "q2",
+            "qtitle": "Animals seen",
+            "colTitle": null,
+            "title": "Cat - Animals seen",
+            "rowTitle": "Cat",
+            "label": "q2r1",
+            "value": 1,
+            "row": "r1",
+            "type": "multiple",
+            "col": null,
+            "qlabel": "q2"
+        },
+        {
+            "vgroup": "q2",
+            "qtitle": "Animals seen",
+            "colTitle": null,
+            "title": "Dog - Animals seen",
+            "rowTitle": "Dog",
+            "label": "q2r2",
+            "value": 1,
+            "row": "r2",
+            "type": "multiple",
+            "col": null,
+            "qlabel": "q2"
+        },
+        {
+            "vgroup": "q2",
+            "qtitle": "Animals seen",
+            "colTitle": null,
+            "title": "Donkey - Animals seen",
+            "rowTitle": "Donkey",
+            "label": "q2r3",
+            "value": 1,
+            "row": "r3",
+            "type": "multiple",
+            "col": null,
+            "qlabel": "q2"
+        },
+        {
+            "vgroup": "q2",
+            "qtitle": "Animals seen",
+            "colTitle": null,
+            "title": "Elephant - Animals seen",
+            "rowTitle": "Elephant",
+            "label": "q2r4",
+            "value": 1,
+            "row": "r4",
+            "type": "multiple",
+            "col": null,
+            "qlabel": "q2"
+        },
+        {
+            "vgroup": "q2",
+            "qtitle": "Animals seen",
+            "colTitle": null,
+            "title": "Aligator - Animals seen",
+            "rowTitle": "Aligator",
+            "label": "q2r5",
+            "value": 1,
+            "row": "r5",
+            "type": "multiple",
+            "col": null,
+            "qlabel": "q2"
+        },
+        {
+            "vgroup": "q3",
+            "qtitle": "Favorite Animal",
+            "colTitle": null,
+            "title": "Favorite Animal",
+            "rowTitle": null,
+            "label": "q3",
+            "values": [
+                {
+                    "label": "r1",
+                    "value": 1,
+                    "title": "Cat"
+                },
+                {
+                    "label": "r2",
+                    "value": 2,
+                    "title": "Dog"
+                },
+                {
+                    "label": "r3",
+                    "value": 3,
+                    "title": "Donkey"
+                },
+                {
+                    "label": "r4",
+                    "value": 4,
+                    "title": "Elephant"
+                },
+                {
+                    "label": "r5",
+                    "value": 5,
+                    "title": "Aligator"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "q3"
+        },
+        {
+            "vgroup": "vlist",
+            "qtitle": "Participant source",
+            "colTitle": null,
+            "title": "Participant source",
+            "rowTitle": null,
+            "label": "vlist",
+            "values": [
+                {
+                    "label": "0",
+                    "value": 1,
+                    "title": "Open Survey (list=0)"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "vlist"
+        },
+        {
+            "vgroup": "qtime",
+            "qtitle": "Total Interview Time",
+            "colTitle": null,
+            "title": "Total Interview Time",
+            "rowTitle": null,
+            "label": "qtime",
+            "row": null,
+            "type": "float",
+            "col": null,
+            "qlabel": "qtime"
+        },
+        {
+            "vgroup": "vos",
+            "qtitle": "Operating System",
+            "colTitle": null,
+            "title": "Operating System",
+            "rowTitle": null,
+            "label": "vos",
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "Windows 95"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "Windows 98"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "Windows 8"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "Windows 10"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "Windows 7"
+                },
+                {
+                    "label": "r5",
+                    "value": 6,
+                    "title": "Windows Vista"
+                },
+                {
+                    "label": "r6",
+                    "value": 7,
+                    "title": "Windows 2003"
+                },
+                {
+                    "label": "r7",
+                    "value": 8,
+                    "title": "Windows XP"
+                },
+                {
+                    "label": "r8",
+                    "value": 9,
+                    "title": "Windows 2000"
+                },
+                {
+                    "label": "r9",
+                    "value": 10,
+                    "title": "Microsoft Windows NT 4.0"
+                },
+                {
+                    "label": "r10",
+                    "value": 11,
+                    "title": "Windows ME"
+                },
+                {
+                    "label": "r11",
+                    "value": 12,
+                    "title": "iPhone/iPad"
+                },
+                {
+                    "label": "r12",
+                    "value": 13,
+                    "title": "Mac OS X or older"
+                },
+                {
+                    "label": "r13",
+                    "value": 14,
+                    "title": "Other Mobile"
+                },
+                {
+                    "label": "r14",
+                    "value": 15,
+                    "title": "Linux, UNIX"
+                },
+                {
+                    "label": "r15",
+                    "value": 16,
+                    "title": "Other"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "vos"
+        },
+        {
+            "vgroup": "vosr15oe",
+            "qtitle": "Operating System",
+            "colTitle": null,
+            "title": "Operating System - Other",
+            "rowTitle": "Other",
+            "label": "vosr15oe",
+            "row": "r15",
+            "type": "text",
+            "col": null,
+            "qlabel": "vos"
+        },
+        {
+            "vgroup": "vbrowser",
+            "qtitle": "Browser",
+            "colTitle": null,
+            "title": "Browser",
+            "rowTitle": null,
+            "label": "vbrowser",
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "Opera"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "MS Edge"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "MSIE 11"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "MSIE 10.x"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "MSIE 9.x"
+                },
+                {
+                    "label": "r5",
+                    "value": 6,
+                    "title": "MSIE 8.x"
+                },
+                {
+                    "label": "r6",
+                    "value": 7,
+                    "title": "MSIE 7.x"
+                },
+                {
+                    "label": "r7",
+                    "value": 8,
+                    "title": "MSIE 6.x"
+                },
+                {
+                    "label": "r8",
+                    "value": 9,
+                    "title": "MSIE 5.x or older"
+                },
+                {
+                    "label": "r9",
+                    "value": 10,
+                    "title": "Chrome"
+                },
+                {
+                    "label": "r10",
+                    "value": 11,
+                    "title": "Safari"
+                },
+                {
+                    "label": "r11",
+                    "value": 12,
+                    "title": "Firefox"
+                },
+                {
+                    "label": "r12",
+                    "value": 13,
+                    "title": "Other Mozilla or Netscape"
+                },
+                {
+                    "label": "r13",
+                    "value": 14,
+                    "title": "Mobile"
+                },
+                {
+                    "label": "r14",
+                    "value": 15,
+                    "title": "Text Browser"
+                },
+                {
+                    "label": "r15",
+                    "value": 16,
+                    "title": "Other"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "vbrowser"
+        },
+        {
+            "vgroup": "vbrowserr15oe",
+            "qtitle": "Browser",
+            "colTitle": null,
+            "title": "Browser - Other",
+            "rowTitle": "Other",
+            "label": "vbrowserr15oe",
+            "row": "r15",
+            "type": "text",
+            "col": null,
+            "qlabel": "vbrowser"
+        },
+        {
+            "vgroup": "vmobiledevice",
+            "qtitle": "Mobile device category",
+            "colTitle": null,
+            "title": "Mobile device category",
+            "rowTitle": null,
+            "label": "vmobiledevice",
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "Smartphone"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "Featurephone"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "Tablet"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "Other mobile"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "Desktop"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "vmobiledevice"
+        },
+        {
+            "vgroup": "vmobileos",
+            "qtitle": "Mobile OS",
+            "colTitle": null,
+            "title": "Mobile OS",
+            "rowTitle": null,
+            "label": "vmobileos",
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "iOS"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "Android"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "Symbian"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "Windows Phone"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "Blackberry"
+                },
+                {
+                    "label": "r5",
+                    "value": 6,
+                    "title": "Other/Desktop"
+                }
+            ],
+            "row": null,
+            "type": "single",
+            "col": null,
+            "qlabel": "vmobileos"
+        },
+        {
+            "vgroup": "start_date",
+            "qtitle": "Survey start time",
+            "colTitle": null,
+            "title": "Survey start time",
+            "rowTitle": null,
+            "label": "start_date",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": "start_date"
+        },
+        {
+            "vgroup": "vdropout",
+            "qtitle": "Last seen question",
+            "colTitle": null,
+            "title": "(q1,q2,q3) Gender - Last seen question",
+            "rowTitle": "(q1,q2,q3) Gender",
+            "label": "vdropoutq1",
+            "values": [
+                {
+                    "label": "#1",
+                    "value": 1,
+                    "title": ""
+                }
+            ],
+            "row": "q1",
+            "type": "single",
+            "col": null,
+            "qlabel": "vdropout"
+        },
+        {
+            "vgroup": "source",
+            "qtitle": "Captured variable",
+            "colTitle": null,
+            "title": "Captured variable",
+            "rowTitle": null,
+            "label": "source",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "decLang",
+            "qtitle": "Captured variable",
+            "colTitle": null,
+            "title": "Captured variable",
+            "rowTitle": null,
+            "label": "decLang",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "list",
+            "qtitle": "Captured variable",
+            "colTitle": null,
+            "title": "Captured variable",
+            "rowTitle": null,
+            "label": "list",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "userAgent",
+            "qtitle": "Captured variable",
+            "colTitle": null,
+            "title": "Captured variable",
+            "rowTitle": null,
+            "label": "userAgent",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "dcua",
+            "qtitle": "Captured variable",
+            "colTitle": null,
+            "title": "Captured variable",
+            "rowTitle": null,
+            "label": "dcua",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "url",
+            "qtitle": "Captured variable",
+            "colTitle": null,
+            "title": "Captured variable",
+            "rowTitle": null,
+            "label": "url",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        },
+        {
+            "vgroup": "session",
+            "qtitle": "Captured variable",
+            "colTitle": null,
+            "title": "Captured variable",
+            "rowTitle": null,
+            "label": "session",
+            "row": null,
+            "type": "text",
+            "col": null,
+            "qlabel": null
+        }
+    ],
+    "questions": [
+        {
+            "qtitle": "Gender",
+            "variables": [
+                {
+                    "vgroup": "q1",
+                    "qtitle": "Gender",
+                    "colTitle": null,
+                    "title": "Gender",
+                    "rowTitle": null,
+                    "label": "q1",
+                    "values": [
+                        {
+                            "label": "r1",
+                            "value": 1,
+                            "title": "Male"
+                        },
+                        {
+                            "label": "r2",
+                            "value": 2,
+                            "title": "Female"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "q1"
+                }
+            ],
+            "values": [
+                {
+                    "label": "r1",
+                    "value": 1,
+                    "title": "Male"
+                },
+                {
+                    "label": "r2",
+                    "value": 2,
+                    "title": "Female"
+                }
+            ],
+            "qlabel": "q1",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "variables": [
+                {
+                    "vgroup": "q2",
+                    "qtitle": "Animals seen",
+                    "colTitle": null,
+                    "title": "Cat - Animals seen",
+                    "rowTitle": "Cat",
+                    "label": "q2r1",
+                    "value": 1,
+                    "row": "r1",
+                    "type": "multiple",
+                    "col": null,
+                    "qlabel": "q2"
+                },
+                {
+                    "vgroup": "q2",
+                    "qtitle": "Animals seen",
+                    "colTitle": null,
+                    "title": "Dog - Animals seen",
+                    "rowTitle": "Dog",
+                    "label": "q2r2",
+                    "value": 1,
+                    "row": "r2",
+                    "type": "multiple",
+                    "col": null,
+                    "qlabel": "q2"
+                },
+                {
+                    "vgroup": "q2",
+                    "qtitle": "Animals seen",
+                    "colTitle": null,
+                    "title": "Donkey - Animals seen",
+                    "rowTitle": "Donkey",
+                    "label": "q2r3",
+                    "value": 1,
+                    "row": "r3",
+                    "type": "multiple",
+                    "col": null,
+                    "qlabel": "q2"
+                },
+                {
+                    "vgroup": "q2",
+                    "qtitle": "Animals seen",
+                    "colTitle": null,
+                    "title": "Elephant - Animals seen",
+                    "rowTitle": "Elephant",
+                    "label": "q2r4",
+                    "value": 1,
+                    "row": "r4",
+                    "type": "multiple",
+                    "col": null,
+                    "qlabel": "q2"
+                },
+                {
+                    "vgroup": "q2",
+                    "qtitle": "Animals seen",
+                    "colTitle": null,
+                    "title": "Aligator - Animals seen",
+                    "rowTitle": "Aligator",
+                    "label": "q2r5",
+                    "value": 1,
+                    "row": "r5",
+                    "type": "multiple",
+                    "col": null,
+                    "qlabel": "q2"
+                }
+            ],
+            "grouping": "cols",
+            "type": "multiple",
+            "qtitle": "Animals seen",
+            "qlabel": "q2"
+        },
+        {
+            "qtitle": "Favorite Animal",
+            "variables": [
+                {
+                    "vgroup": "q3",
+                    "qtitle": "Favorite Animal",
+                    "colTitle": null,
+                    "title": "Favorite Animal",
+                    "rowTitle": null,
+                    "label": "q3",
+                    "values": [
+                        {
+                            "label": "r1",
+                            "value": 1,
+                            "title": "Cat"
+                        },
+                        {
+                            "label": "r2",
+                            "value": 2,
+                            "title": "Dog"
+                        },
+                        {
+                            "label": "r3",
+                            "value": 3,
+                            "title": "Donkey"
+                        },
+                        {
+                            "label": "r4",
+                            "value": 4,
+                            "title": "Elephant"
+                        },
+                        {
+                            "label": "r5",
+                            "value": 5,
+                            "title": "Aligator"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "q3"
+                }
+            ],
+            "values": [
+                {
+                    "label": "r1",
+                    "value": 1,
+                    "title": "Cat"
+                },
+                {
+                    "label": "r2",
+                    "value": 2,
+                    "title": "Dog"
+                },
+                {
+                    "label": "r3",
+                    "value": 3,
+                    "title": "Donkey"
+                },
+                {
+                    "label": "r4",
+                    "value": 4,
+                    "title": "Elephant"
+                },
+                {
+                    "label": "r5",
+                    "value": 5,
+                    "title": "Aligator"
+                }
+            ],
+            "qlabel": "q3",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "qtitle": "Participant source",
+            "variables": [
+                {
+                    "vgroup": "vlist",
+                    "qtitle": "Participant source",
+                    "colTitle": null,
+                    "title": "Participant source",
+                    "rowTitle": null,
+                    "label": "vlist",
+                    "values": [
+                        {
+                            "label": "0",
+                            "value": 1,
+                            "title": "Open Survey (list=0)"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "vlist"
+                }
+            ],
+            "values": [
+                {
+                    "label": "0",
+                    "value": 1,
+                    "title": "Open Survey (list=0)"
+                }
+            ],
+            "flags": "vt",
+            "qlabel": "vlist",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "qtitle": "Total Interview Time",
+            "variables": [
+                {
+                    "vgroup": "qtime",
+                    "qtitle": "Total Interview Time",
+                    "colTitle": null,
+                    "title": "Total Interview Time",
+                    "rowTitle": null,
+                    "label": "qtime",
+                    "row": null,
+                    "type": "float",
+                    "col": null,
+                    "qlabel": "qtime"
+                }
+            ],
+            "flags": "t",
+            "qlabel": "qtime",
+            "type": "float",
+            "grouping": "rows"
+        },
+        {
+            "qtitle": "Operating System",
+            "variables": [
+                {
+                    "vgroup": "vos",
+                    "qtitle": "Operating System",
+                    "colTitle": null,
+                    "title": "Operating System",
+                    "rowTitle": null,
+                    "label": "vos",
+                    "values": [
+                        {
+                            "label": "r0",
+                            "value": 1,
+                            "title": "Windows 95"
+                        },
+                        {
+                            "label": "r1",
+                            "value": 2,
+                            "title": "Windows 98"
+                        },
+                        {
+                            "label": "r2",
+                            "value": 3,
+                            "title": "Windows 8"
+                        },
+                        {
+                            "label": "r3",
+                            "value": 4,
+                            "title": "Windows 10"
+                        },
+                        {
+                            "label": "r4",
+                            "value": 5,
+                            "title": "Windows 7"
+                        },
+                        {
+                            "label": "r5",
+                            "value": 6,
+                            "title": "Windows Vista"
+                        },
+                        {
+                            "label": "r6",
+                            "value": 7,
+                            "title": "Windows 2003"
+                        },
+                        {
+                            "label": "r7",
+                            "value": 8,
+                            "title": "Windows XP"
+                        },
+                        {
+                            "label": "r8",
+                            "value": 9,
+                            "title": "Windows 2000"
+                        },
+                        {
+                            "label": "r9",
+                            "value": 10,
+                            "title": "Microsoft Windows NT 4.0"
+                        },
+                        {
+                            "label": "r10",
+                            "value": 11,
+                            "title": "Windows ME"
+                        },
+                        {
+                            "label": "r11",
+                            "value": 12,
+                            "title": "iPhone/iPad"
+                        },
+                        {
+                            "label": "r12",
+                            "value": 13,
+                            "title": "Mac OS X or older"
+                        },
+                        {
+                            "label": "r13",
+                            "value": 14,
+                            "title": "Other Mobile"
+                        },
+                        {
+                            "label": "r14",
+                            "value": 15,
+                            "title": "Linux, UNIX"
+                        },
+                        {
+                            "label": "r15",
+                            "value": 16,
+                            "title": "Other"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "vos"
+                },
+                {
+                    "vgroup": "vosr15oe",
+                    "qtitle": "Operating System",
+                    "colTitle": null,
+                    "title": "Operating System - Other",
+                    "rowTitle": "Other",
+                    "label": "vosr15oe",
+                    "row": "r15",
+                    "type": "text",
+                    "col": null,
+                    "qlabel": "vos"
+                }
+            ],
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "Windows 95"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "Windows 98"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "Windows 8"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "Windows 10"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "Windows 7"
+                },
+                {
+                    "label": "r5",
+                    "value": 6,
+                    "title": "Windows Vista"
+                },
+                {
+                    "label": "r6",
+                    "value": 7,
+                    "title": "Windows 2003"
+                },
+                {
+                    "label": "r7",
+                    "value": 8,
+                    "title": "Windows XP"
+                },
+                {
+                    "label": "r8",
+                    "value": 9,
+                    "title": "Windows 2000"
+                },
+                {
+                    "label": "r9",
+                    "value": 10,
+                    "title": "Microsoft Windows NT 4.0"
+                },
+                {
+                    "label": "r10",
+                    "value": 11,
+                    "title": "Windows ME"
+                },
+                {
+                    "label": "r11",
+                    "value": 12,
+                    "title": "iPhone/iPad"
+                },
+                {
+                    "label": "r12",
+                    "value": 13,
+                    "title": "Mac OS X or older"
+                },
+                {
+                    "label": "r13",
+                    "value": 14,
+                    "title": "Other Mobile"
+                },
+                {
+                    "label": "r14",
+                    "value": 15,
+                    "title": "Linux, UNIX"
+                },
+                {
+                    "label": "r15",
+                    "value": 16,
+                    "title": "Other"
+                }
+            ],
+            "flags": "vt",
+            "qlabel": "vos",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "qtitle": "Browser",
+            "variables": [
+                {
+                    "vgroup": "vbrowser",
+                    "qtitle": "Browser",
+                    "colTitle": null,
+                    "title": "Browser",
+                    "rowTitle": null,
+                    "label": "vbrowser",
+                    "values": [
+                        {
+                            "label": "r0",
+                            "value": 1,
+                            "title": "Opera"
+                        },
+                        {
+                            "label": "r1",
+                            "value": 2,
+                            "title": "MS Edge"
+                        },
+                        {
+                            "label": "r2",
+                            "value": 3,
+                            "title": "MSIE 11"
+                        },
+                        {
+                            "label": "r3",
+                            "value": 4,
+                            "title": "MSIE 10.x"
+                        },
+                        {
+                            "label": "r4",
+                            "value": 5,
+                            "title": "MSIE 9.x"
+                        },
+                        {
+                            "label": "r5",
+                            "value": 6,
+                            "title": "MSIE 8.x"
+                        },
+                        {
+                            "label": "r6",
+                            "value": 7,
+                            "title": "MSIE 7.x"
+                        },
+                        {
+                            "label": "r7",
+                            "value": 8,
+                            "title": "MSIE 6.x"
+                        },
+                        {
+                            "label": "r8",
+                            "value": 9,
+                            "title": "MSIE 5.x or older"
+                        },
+                        {
+                            "label": "r9",
+                            "value": 10,
+                            "title": "Chrome"
+                        },
+                        {
+                            "label": "r10",
+                            "value": 11,
+                            "title": "Safari"
+                        },
+                        {
+                            "label": "r11",
+                            "value": 12,
+                            "title": "Firefox"
+                        },
+                        {
+                            "label": "r12",
+                            "value": 13,
+                            "title": "Other Mozilla or Netscape"
+                        },
+                        {
+                            "label": "r13",
+                            "value": 14,
+                            "title": "Mobile"
+                        },
+                        {
+                            "label": "r14",
+                            "value": 15,
+                            "title": "Text Browser"
+                        },
+                        {
+                            "label": "r15",
+                            "value": 16,
+                            "title": "Other"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "vbrowser"
+                },
+                {
+                    "vgroup": "vbrowserr15oe",
+                    "qtitle": "Browser",
+                    "colTitle": null,
+                    "title": "Browser - Other",
+                    "rowTitle": "Other",
+                    "label": "vbrowserr15oe",
+                    "row": "r15",
+                    "type": "text",
+                    "col": null,
+                    "qlabel": "vbrowser"
+                }
+            ],
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "Opera"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "MS Edge"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "MSIE 11"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "MSIE 10.x"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "MSIE 9.x"
+                },
+                {
+                    "label": "r5",
+                    "value": 6,
+                    "title": "MSIE 8.x"
+                },
+                {
+                    "label": "r6",
+                    "value": 7,
+                    "title": "MSIE 7.x"
+                },
+                {
+                    "label": "r7",
+                    "value": 8,
+                    "title": "MSIE 6.x"
+                },
+                {
+                    "label": "r8",
+                    "value": 9,
+                    "title": "MSIE 5.x or older"
+                },
+                {
+                    "label": "r9",
+                    "value": 10,
+                    "title": "Chrome"
+                },
+                {
+                    "label": "r10",
+                    "value": 11,
+                    "title": "Safari"
+                },
+                {
+                    "label": "r11",
+                    "value": 12,
+                    "title": "Firefox"
+                },
+                {
+                    "label": "r12",
+                    "value": 13,
+                    "title": "Other Mozilla or Netscape"
+                },
+                {
+                    "label": "r13",
+                    "value": 14,
+                    "title": "Mobile"
+                },
+                {
+                    "label": "r14",
+                    "value": 15,
+                    "title": "Text Browser"
+                },
+                {
+                    "label": "r15",
+                    "value": 16,
+                    "title": "Other"
+                }
+            ],
+            "flags": "vt",
+            "qlabel": "vbrowser",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "qtitle": "Mobile device category",
+            "variables": [
+                {
+                    "vgroup": "vmobiledevice",
+                    "qtitle": "Mobile device category",
+                    "colTitle": null,
+                    "title": "Mobile device category",
+                    "rowTitle": null,
+                    "label": "vmobiledevice",
+                    "values": [
+                        {
+                            "label": "r0",
+                            "value": 1,
+                            "title": "Smartphone"
+                        },
+                        {
+                            "label": "r1",
+                            "value": 2,
+                            "title": "Featurephone"
+                        },
+                        {
+                            "label": "r2",
+                            "value": 3,
+                            "title": "Tablet"
+                        },
+                        {
+                            "label": "r3",
+                            "value": 4,
+                            "title": "Other mobile"
+                        },
+                        {
+                            "label": "r4",
+                            "value": 5,
+                            "title": "Desktop"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "vmobiledevice"
+                }
+            ],
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "Smartphone"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "Featurephone"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "Tablet"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "Other mobile"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "Desktop"
+                }
+            ],
+            "flags": "vt",
+            "qlabel": "vmobiledevice",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "qtitle": "Mobile OS",
+            "variables": [
+                {
+                    "vgroup": "vmobileos",
+                    "qtitle": "Mobile OS",
+                    "colTitle": null,
+                    "title": "Mobile OS",
+                    "rowTitle": null,
+                    "label": "vmobileos",
+                    "values": [
+                        {
+                            "label": "r0",
+                            "value": 1,
+                            "title": "iOS"
+                        },
+                        {
+                            "label": "r1",
+                            "value": 2,
+                            "title": "Android"
+                        },
+                        {
+                            "label": "r2",
+                            "value": 3,
+                            "title": "Symbian"
+                        },
+                        {
+                            "label": "r3",
+                            "value": 4,
+                            "title": "Windows Phone"
+                        },
+                        {
+                            "label": "r4",
+                            "value": 5,
+                            "title": "Blackberry"
+                        },
+                        {
+                            "label": "r5",
+                            "value": 6,
+                            "title": "Other/Desktop"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "vmobileos"
+                }
+            ],
+            "values": [
+                {
+                    "label": "r0",
+                    "value": 1,
+                    "title": "iOS"
+                },
+                {
+                    "label": "r1",
+                    "value": 2,
+                    "title": "Android"
+                },
+                {
+                    "label": "r2",
+                    "value": 3,
+                    "title": "Symbian"
+                },
+                {
+                    "label": "r3",
+                    "value": 4,
+                    "title": "Windows Phone"
+                },
+                {
+                    "label": "r4",
+                    "value": 5,
+                    "title": "Blackberry"
+                },
+                {
+                    "label": "r5",
+                    "value": 6,
+                    "title": "Other/Desktop"
+                }
+            ],
+            "flags": "vt",
+            "qlabel": "vmobileos",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "qtitle": "Survey start time",
+            "variables": [
+                {
+                    "vgroup": "start_date",
+                    "qtitle": "Survey start time",
+                    "colTitle": null,
+                    "title": "Survey start time",
+                    "rowTitle": null,
+                    "label": "start_date",
+                    "row": null,
+                    "type": "text",
+                    "col": null,
+                    "qlabel": "start_date"
+                }
+            ],
+            "flags": "t",
+            "qlabel": "start_date",
+            "type": "text",
+            "grouping": "rows"
+        },
+        {
+            "qtitle": "Participant status",
+            "variables": [
+                {
+                    "vgroup": "status",
+                    "qtitle": "Participant status",
+                    "colTitle": null,
+                    "title": "Participant status",
+                    "rowTitle": null,
+                    "label": "status",
+                    "values": [
+                        {
+                            "label": "terminated",
+                            "value": 1,
+                            "title": "Terminated"
+                        },
+                        {
+                            "label": "overquota",
+                            "value": 2,
+                            "title": "Overquota"
+                        },
+                        {
+                            "label": "qualified",
+                            "value": 3,
+                            "title": "Qualified"
+                        },
+                        {
+                            "label": "partial",
+                            "value": 4,
+                            "title": "Partial"
+                        }
+                    ],
+                    "row": null,
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "status"
+                }
+            ],
+            "values": [
+                {
+                    "label": "terminated",
+                    "value": 1,
+                    "title": "Terminated"
+                },
+                {
+                    "label": "overquota",
+                    "value": 2,
+                    "title": "Overquota"
+                },
+                {
+                    "label": "qualified",
+                    "value": 3,
+                    "title": "Qualified"
+                },
+                {
+                    "label": "partial",
+                    "value": 4,
+                    "title": "Partial"
+                }
+            ],
+            "flags": "vt",
+            "qlabel": "status",
+            "type": "single",
+            "grouping": "cols"
+        },
+        {
+            "qtitle": "Last seen question",
+            "variables": [
+                {
+                    "vgroup": "vdropout",
+                    "qtitle": "Last seen question",
+                    "colTitle": null,
+                    "title": "(q1,q2,q3) Gender - Last seen question",
+                    "rowTitle": "(q1,q2,q3) Gender",
+                    "label": "vdropoutq1",
+                    "values": [
+                        {
+                            "label": "#1",
+                            "value": 1,
+                            "title": ""
+                        }
+                    ],
+                    "row": "q1",
+                    "type": "single",
+                    "col": null,
+                    "qlabel": "vdropout"
+                }
+            ],
+            "values": [
+                {
+                    "label": "#1",
+                    "value": 1,
+                    "title": ""
+                }
+            ],
+            "flags": "vt",
+            "qlabel": "vdropout",
+            "type": "single",
+            "grouping": "rows"
+        }
+    ]
+}
