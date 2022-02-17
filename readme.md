@@ -4,7 +4,7 @@ Produce a JSON report (`output.json`) of data collected via an online survey.
 
 ## Deliverable
 
-JavaScript that takes the inputs `data/rawData.json` and `data/dataMap.json` to produces the output below:
+JavaScript that takes the inputs `data/rawData.json` and `data/dataMap.json` to produce the output below:
 
 ```
 [{
